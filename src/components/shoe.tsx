@@ -6,7 +6,6 @@ import gsap from 'gsap'
 import { useLayoutEffect } from "react";
 
 export default function Shoe() {
-  const { nodes, materials } = useGLTF('/shoes_-_photogrammetry.glb') as ShoeGLTF;
   const {camera,scene}=useThree()
 const { nodes:jordanNodes, materials:jordanMaterials } = useGLTF("/air_jordan_1.glb") as ShoeGLTF;
   const tl=gsap.timeline()
