@@ -8,8 +8,8 @@ function App() {
 
 
   return (
-    <main className="overflow-x-hidden">
-			<div className="h-screen w-full fixed top-0 z-10 hidden lg:block">
+    <main className="overflow-x-hidden break-words">
+			<div className="h-screen w-full fixed  top-0 z-10 hidden lg:block">
 				<CanvasContainer />
 			</div>
 			<Header />
