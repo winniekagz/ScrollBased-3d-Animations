@@ -7,8 +7,8 @@ export const Header = () => {
 				<h1 className="font-rubix text-[#192a51]">Sole Mates</h1>
 				<img
 					className="h-24 w-24 -rotate-45"
-					// height={100}
-					// width={100}
+					height={100}
+					width={100}
 					src="https://freesvg.org/img/high-tops.png"
 					alt=""
 				/>

@@ -14,9 +14,9 @@ const { nodes:jordanNodes, materials:jordanMaterials } = useGLTF("/air_jordan_1.
     // new ScrollTrigger({});
     // component About.tsx
     tl.to(camera.position, {
-      x: 5,
-      y: 4.0,
-      z: 2.8,
+      x:  12,
+      y:  10.0,
+      z:  12,
       scrollTrigger: {
         trigger: ".second-section",
         start: "top bottom",
@@ -26,9 +26,9 @@ const { nodes:jordanNodes, materials:jordanMaterials } = useGLTF("/air_jordan_1.
       },
     })
       .to(scene.position, {
-        x: 3.01,
-        y: 0.76,
-        z: 3.7,
+        x:  6.01,
+        y: 1.52,
+        z: 6.7,
         scrollTrigger: {
           trigger: ".second-section",
           start: "top bottom",
